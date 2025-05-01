@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Histoires à ne pas lire seul</title>
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Georgia', serif;
+      background-color: #0d0d0d;
+      color: #f8f8f8;
+    }
+
+    header {
+      background: url('https://images.unsplash.com/photo-1508385082359-f83d94c5fefb?ixlib=rb-4.0.3&auto=format&fit=crop&w=1950&q=80') no-repeat center center/cover;
+      padding: 80px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3em;
+      margin: 0;
+      background-color: rgba(0,0,0,0.7);
+      display: inline-block;
+      padding: 10px 20px;
+      border-radius: 10px;
+    }
+
+    header p {
+      margin-top: 15px;
+      font-size: 1.2em;
+      background-color: rgba(0,0,0,0.6);
+      display: inline-block;
+      padding: 8px 16px;
+      border-radius: 8px;
+    }
+
+    .ebooks {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      padding: 40px 20px;
+      gap: 30px;
+    }
+
+    .ebook {
+      background-color: #1a1a1a;
+      padding: 20px;
+      border-radius: 10px;
+      text-align: center;
+      width: 250px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.7);
+    }
+
+    .ebook img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 6px;
+    }
+
+    .ebook h2 {
+      font-size: 1.3em;
+      margin: 15px 0 10px;
+    }
+
+    .ebook a {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 18px;
+      background-color: #e63946;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background 0.3s ease;
+    }
+
+    .ebook a:hover {
+      background-color: #a4161a;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+      color: #aaa;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>Histoires à ne pas lire seul</h1>
+  <p>Des récits paranormaux à découvrir dans le noir… ou pas.</p>
+</header>
+
+<section class="ebooks">
+  <div class="ebook">
+    <img src="couverture1.jpg" alt="Couverture Ebook 1" />
+    <h2>Histoires à ne pas lire seul</h2>
+    <a href="ebooks/histoires-a-ne-pas-lire-seul.pdf" download>Télécharger</a>
+  </div>
+
+  <div class="ebook">
+    <img src="images/couverture-ebook2.png" alt="Couverture Ebook 2" />
+    <h2>Prochain recueil (à venir)</h2>
+    <a href="#" onclick="alert('Bientôt disponible !')">En attente...</a>
+  </div>
+</section>
+
+<footer>
+  © 2025 - MiniMystère | Nuits Blanches Garantis
+</footer>
+
+</body>
+</html>
